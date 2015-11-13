@@ -12,7 +12,7 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+		System.out.println("1");
 		//Launch 10 threads that make the operation with a different number
 		for (int i=1; i<=10; i++){
 			Calculator calculator=new Calculator(i);
